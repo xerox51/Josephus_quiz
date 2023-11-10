@@ -1,7 +1,7 @@
 def solver
   print "Please input the total number of person you need:"
   num1 = gets.chomp.to_i
-  print "Please input the order number of person you want to kill (This number should be less then the total number):"
+  print "Please input the order number of person you want to kill (This number should be less than the total number):"
   num2 = gets.chomp.to_i
   sequence = Array.new(num1, false)
   list_a = Array.new
